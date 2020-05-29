@@ -32,7 +32,7 @@ import requests
 import requests.packages.urllib3.util.connection as urllib3_connection
 import tqdm
 
-from instagram_saved_scraper.constants import *
+from constants import *
 
 
 class PartialContentException(Exception):
