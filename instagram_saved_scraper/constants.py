@@ -14,3 +14,4 @@ MAX_RETRY_DELAY = 60
 SAVED_MEDIA = BASE_URL + 'graphql/query/?query_hash=8c86fed24fa03a8a2eea2a70a80c7b6b&variables={0}'
 SAVED_MEDIA_VARS = '{{"id":"{0}","first":50,"after":"{1}"}}'
 VIEW_MEDIA_URL = BASE_URL + 'p/{0}/?__a=1'
+MAX_RETRIES = 5
